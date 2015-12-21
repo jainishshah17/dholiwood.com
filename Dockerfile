@@ -20,7 +20,7 @@ RUN rm -rf /opt/tomcat/webapps/*
 
 RUN apt-get update
 
-ADD * /opt/tomcat/webapps/
+ADD * /opt/tomcat/webapps/dholiwood/
 
 ENV CATALINA_HOME /opt/tomcat
 
