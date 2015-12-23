@@ -1,0 +1,14 @@
+#my-navbar{
+    background-color: #953baf;
+}
+.jumbotron {
+    background-color: white;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: white 0.3em 0.3em 0.3em;
+    color: chartreuse;
+}
+.header1{
+    background: url("../images/background.jpg");
+}

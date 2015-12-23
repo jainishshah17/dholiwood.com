@@ -3,33 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <title>Dholiwood.com</title>
-    <style>
-        body {
-            background-color: #d0e4fe;
-        }
+<link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/custom.css">
 
-        h1 {
-            color: orange;
-            text-align: center;
-        }
-        img{
-            height: 300px;
-            width: 300px;
-        }
-        p {
-            font-family: "Times New Roman";
-            font-size: 20px;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
-<body background="background.jpg">
-<div>
-    <p>
-            <h1>Great source of Information for all Gujarati Movies is building up</h1>
-    <h2>by  4 Fantastic Frnds </h2><a href="http://www.bhargavjaiswal.com/"><img src="bhargav.jpg"></a>, <a href="https://www.linkedin.com/in/harpalsinhchauhan"><img src="Harpal.jpg"></a>, <a href="https://www.facebook.com/rkosamia12?fref=ts"><img src="ronak.jpg"></a>, <a href="http://www.jainishshah.com/"><img src="jainish.jpg"></a>
+<body background="images/background.jpg" data-spy="scroll" data-target="#my-navbar">
 
-    </p>
-</div>
+<!-- Navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-right navbar-custom" id="my-navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand" style="color: darkorange; font-family: 'Agency FB';font-size: 45px;"> Dholiwood</a>
+        </div><!-- end of navbar-header-->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="#home"><span class="glyphicon glyphicon-home"></span> Home</a> </li>
+                <li><a href="latest.html">The Latest</a> </li>
+                <li><a href="movies.html">Movies</a> </li>
+                <li><a href="music.html">Music</a> </li>
+                <li><a href="drama.html">Drama</a> </li>
+                <li><a href="garba.html">Garba</a> </li>
+                <li><a href="about.html">About Us</a> </li>
+                <li><a href="contact.html">Contact Us</a> </li>
+            </ul>
+        </div><!-- end of navbar-->
+    </div><!-- end of container-->
+</nav>
+<div class="container" style="width: 100%">
+    <div class="jumbotron" style="text-align: center; background-color: inherit;">
+
+       <h2 class="text-danger"> Great source of Information for all Gujarati Movies is building up</h2>
+    </div> <!-- end of jumbotron-->
+   </div> <!-- end of container-->
+
+
+<div class="container" style="width: 100%">
+        <div class="col-md-3">
+            <a href="http://www.bhargavjaiswal.com/"><img class="img-rounded img-resonsive" src="images/bhargav.jpg"></a>
+        </div>
+        <div class="col-md-3">
+            <a href="https://www.linkedin.com/in/harpalsinhchauhan"><img class="img-rounded img-resonsive" src="images/Harpal.jpg"></a>
+        </div>
+        <div class="col-md-3">
+            <a href="https://www.facebook.com/rkosamia12?fref=ts"><img class="img-rounded img-resonsive" src="images/ronak.jpg"></a>
+        </div>
+        <div class="col-md-3">
+            <a href="http://www.jainishshah.com/"><img class="img-rounded img-resonsive" src="images/jainish.jpg"></a>
+        </div>
+
+    </div><!-- end of container-->
+<!-- footer -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script>
 </body>
 </html>
