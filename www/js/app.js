@@ -114,9 +114,9 @@ myApp.run(function ($rootScope, $location, $http, $timeout, AuthService, RESTSer
 
     // TODO move this out to a more appropriate place
     $rootScope.faq = [
-        {key: "What is Dholiwood?", value: " ----contact : - ---- "},
-        {key: "What we do?", value: " ----contact : - ---- "},
-        {key: "What's our goal?", value:  " ----contact : - ---- "}
+        {key: "What is Dholiwood?", value: "It is a hub of Gujarati Cinemas. It is an idea to make a website which will be single source of information for all Gujarati Movies, Music, Natak, Upcoming movies. A portal where gujjus can search for Hot things happening in dholiwood. Where they can rate Dholiwood movies, provide their reviews. A place where Gujjus can advertise for their business. It is a business thought came in mind of few gujju NRIs."},
+        {key: "What we do?", value: "We provides links of gujarati movies, dramas and music."},
+        {key: "What's our goal?", value:  "Provide entertainments to Gujrati Families all across glob.  "}
     ];
 
 
